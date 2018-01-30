@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.commsen.stopwatch.api:stopwatch:0.3">
+    <CLASSES>
+      <root url="jar://D:/Java/maven/repository/com/commsen/stopwatch/api/stopwatch/0.3/stopwatch-0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Java/maven/repository/com/commsen/stopwatch/api/stopwatch/0.3/stopwatch-0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Java/maven/repository/com/commsen/stopwatch/api/stopwatch/0.3/stopwatch-0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
