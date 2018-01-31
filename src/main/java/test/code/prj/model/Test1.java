@@ -1,6 +1,7 @@
-package test.code.prj.model;
+﻿package test.code.prj.model;
 
 import java.math.BigDecimal;
+import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
@@ -31,6 +32,8 @@ public class Test1 {
 
     public static void main(String[] args) {
         try {
+            String str1 = "大秦 {0} {1} {2}";
+            System.out.println(MessageFormat.format(str1, "将军", "梦回", "秦朝"));
             //Box<String> name = new Box<>("corn");
             Box<Integer> age = new Box<>(121);
             Box<Number> number = new Box<>(222);
@@ -67,6 +70,8 @@ public class Test1 {
                 System.out.println(csRef.take().get());
 
             }
+            //System.out.println(csRef.take().get());
+            System.out.println("1111111111111111111111111111");
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
@@ -76,3 +81,4 @@ public class Test1 {
 }
 //test 分支1
 //sdsd
+//////////////////////////
