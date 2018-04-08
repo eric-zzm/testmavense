@@ -46,8 +46,8 @@ public class TestDemo01 {
             ExecutorService executorService = Executors.newCachedThreadPool();
             Future future=executorService.submit(runnable);
             System.out.println(future.get()+" "+future.isDone());
-
-
+//sadsadwe
+//
         } catch (ExecutionException e)
         {
             e.printStackTrace();
